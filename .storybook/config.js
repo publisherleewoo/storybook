@@ -1,7 +1,9 @@
-import {configure} from '@storybook/react'
+import { configure, setAddon } from "@storybook/react"
+import JSXAddon from 'storybook-addon-jsx'
 
-function loadStories(){
-   configure(require.context('../src/stories', true, /.js$|.jsx$/), module);
+function loadStories() {
+   configure(require.context("../src/stories", true, /.js$|.jsx$/), module)
 }
 
-configure(loadStories,module)
+setAddon(JSXAddon)
+configure(loadStories, module)
