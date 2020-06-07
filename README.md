@@ -1,3 +1,18 @@
+cli 셋팅법
+```
+ npm install -g @storybook/cli
+```
+```
+$ getstorybook
+```
+```
+$ npm run storybook
+```
+
+
+
+
+
 ```
 npm i storybook @storybook/addon-actions @storybook/addons @storybook/react
 ```
