@@ -1,4 +1,4 @@
-cli 셋팅법
+# cli 셋팅법
 ```
  npm install -g @storybook/cli
 ```
@@ -10,8 +10,7 @@ $ npm run storybook
 ```
 
 
-
-<br/><br/><br/><br/><br/><br/>
+# 개별모듈 설치
 
 ```
 npm i storybook @storybook/addon-actions @storybook/addons @storybook/react
